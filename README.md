@@ -1,6 +1,6 @@
 # 👩‍💻 Algoritmos e Programação de Computadores I e II
 
-# Grade Algoritmos e Programação de Computadores I
+## Grade Algoritmos e Programação de Computadores I
 
 | **Semana** 	|             **Matéria**            	|
 |:----------:	|:----------------------------------:	|
@@ -13,6 +13,7 @@
 |     _7_    	|         Vetores e matrizes         	|
 |     _8_    	|  Depuração de programas e revisão  	|
 
+## Exercícios
 [Exercícios de Apoio](/Algoritmos-e-Programacao-I-II/Exercícios_apoio_I)
 
 ## Bibliografia 
