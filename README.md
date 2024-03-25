@@ -13,6 +13,8 @@
 |     _7_    	|         Vetores e matrizes         	|
 |     _8_    	|  Depuração de programas e revisão  	|
 
+[Exercícios de Apoio](/Exercícios_apoio_I)
+
 ## Bibliografia 
 ### Semana 1 a 7
 _PERKOVIC, Ljubomir. Introdução à Computação Usando Python - Um Foco no Desenvolvimento de Aplicações. Capítulo 1. SP: Grupo GEN, 2016.
