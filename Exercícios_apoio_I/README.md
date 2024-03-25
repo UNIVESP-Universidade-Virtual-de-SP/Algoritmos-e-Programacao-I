@@ -5,10 +5,10 @@ Os Seguintes exercícios s.ão de Algoritmos Programacao de Computadores I do pr
 ## Indíce
 
 - [Semana 1 ✅.](#semana-1-)
-    - [Exercício 1..](#exerc_01)
-    - [Exercício 2..](#exerc_02)
-    - [Exercício 3..](#exerc_03)
-    - [Exercício 4..](#exerc_04)
+    - [Exercício 1.](#exerc_01)
+    - [Exercício 2.](#exerc_02)
+    - [Exercício 3.](#exerc_03)
+    - [Exercício 4.](#exerc_04)
 - [Semana 2 ✅.](#semana-2-)
     - [Exercício 05.](#exerc_05)
     - [Exercício 06.](#exerc_06)
@@ -529,60 +529,558 @@ print(perimetro(2))
     # Output => 12.566370614359172
 ```
 ---
-- **Exerc_17**: Usa função Help em exercícios da semana 4.
-```python```
+### **Exerc_16**:
+Filtra Números negativos em uma lista.
+
+
+```python
+# Escreva a função negativos(), que aceita uma lista como entrada e exibe, um por
+# linha, os valores negativos na lista. A função não deverá retornar nada.
+# >>> negatives([4, 0, −1, −3, 6, −9])
+
+def negativos(args):
+    "Retorna os elementos negativos em uma lista passada como paramêtro"
+    filtered = list(filter(lambda x: x < 0,args))
+    print(filtered)
+    return filtered
+
+negativos([4, 0, -1, -3, 6, -9])
+    # Output => [-1, -3, -9]
+```
 ---
-- **Exerc_18**: Manipulação de items em uma lista.
-```python```
+### **Exerc_17**:
+Usa função Help em exercícios d.a semana 4.
+
+
+```python
+"""
+Help on function média in module __main__:
+
+média(a=<class 'int'>, b=<class 'int'>)
+    Função que retorna média entre dois valores a e b
+
+Help on function negativos in module __main__:
+
+negativos(args)
+    Retorna os elementos negativos em uma lista passada como paramêtro
+"""
+import exerc_14
+import exerc_16
+
+help(exerc_14.average)
+help(exerc_16.negativos)
+```
+---
+### **Exerc_18**:
+Manipulação de items em uma lista.
+
+
+```python
+# Suponha que uma lista não vazia time foi atribuída. Escreva uma instrução Python ou
+# instruções que mapeiam o primeiro e último valor da lista. Assim, se a lista
+# original for:
+
+# >>> time = ["Ava", "Eleanor", "Clare", "Sarah"]
+  
+# então a lista resultante deverá ser:
+  
+# >>> time
+# ["Sarah", "Eleanor", "Clare", "Ava"]
+
+def exerc_18(args):
+    if len(args) > 1:
+        firstItem = args[0]
+        lastItem = args[-1]
+        args[0] = lastItem
+        args[-1] = firstItem
+        return args
+    else:
+        raise IndexError("Lista menor que 1.")
+
+print(exerc_18([0,2,3,4,5,6,7]))
+    # Output => [7, 2, 3, 4, 5, 6, 0]
+
+print(exerc_18(["Sarah", "Eleanor", "Clare", "Ava"]))
+    # Output => ['Ava', 'Eleanor', 'Clare', 'Sarah']
+
+print(exerc_18([True,False,True,False]))
+    # Output => [False, False, True, True]
+
+print(exerc_18([True,False]))
+    # Output => [False, True]
+
+print(exerc_18([True]))
+    # Output => IndexError: Lista menor que 1.
+```
 ---
 
 ## Semana 5 ✅
 
-- **Exerc_19**: Uso de condicionais para verificação se há ou não direito a pensão.
-```python```
+### **Exerc_19**:
+Uso de condicionais para verificação se há ou não direito a pensão.
+
+
+```python
+# Traduza estas instruções condicionais em instruções if do Python:  
+# Se idade é maior que 62, exiba 'Você pode obter benefícios de pensão'.
+
+def exerc_19(idade=int):
+    if (idade > 62):
+        print("Você pode obter benefícios de pensão")
+        
+exerc_19(10)
+exerc_19(20)
+exerc_19(30)
+exerc_19(40)
+exerc_19(50)
+exerc_19(60)
+exerc_19(63)
+    # Output => Você pode obter benefícios de pensão
+```
 ---
-- **Exerc_20**: Verificação de Items em uma lista com if.
-```python```
+### **Exerc_20**:
+Verificação de Items em uma lista com if.
+
+
+```python
+# Se o nome está na lista ['Musial', 'Aaraon', 'Williams', 'Gehrig', 'Ruth'],
+# exiba 'Um dos 5 maiores jogadores de beisebol de todos os tempos!'.
+
+def exerc_20(nome=str):
+    if (nome in ['Musial', 'Aaraon', 'Williams', 'Gehrig', 'Ruth']):
+        print('Um dos 5 maiores jogadores de beisebol de todos os tempos!')
+
+exerc_20("Gabriel")
+exerc_20("Rafael")
+exerc_20("Simone")
+exerc_20("Felipe")
+exerc_20("Williams")
+    # Output => Um dos 5 maiores jogadores de beisebol de todos os tempos!
+```
 ---
-- **Exerc_21**: Verificação usando operadores lógicos.
-```python```
+### **Exerc_21**:
+Verificação usando operadores lógicos.
+
+
+```python
+# Se golpes é maior que 10 e defesas é 0, exiba 'Você está morto…'.
+
+def Exercicio32c(golpes=int, defesas=int):
+    if (golpes > 10 and defesas == 0):
+        print("Você está morto")
+
+Exercicio32c(9,1)
+Exercicio32c(9,0)
+Exercicio32c(10,1)
+Exercicio32c(11,0)
+```
 ---
-- **Exerc_22**: Verificação de Items em um dict com if.
-```python```
+### **Exerc_22**:
+Verificação de Items em um dict com if.
+
+
+```python
+# Se pelo menos uma das variáveis booleanas norte, sul, leste e oeste for True,
+# exiba 'Posso escapar.'.
+
+def Exercicio32d(**pontos_cardeais):
+    if True in pontos_cardeais.values():
+        print("Posso escapar.")
+        
+Exercicio32d(norte=True,sul=True,leste=True,oeste=True)
+
+```
 ---
-- **Exerc_23**: Verificação de ano Bissexto.
-```python```
+### **Exerc_23**:
+Verificação de ano Bissexto.
+
+
+```python
+"""
+Traduza estas declarações em instruções if/else do Python:
+
+Se ano é divisível por 4, exiba 'Pode ser um ano bissexto.'; caso contrário,
+exiba 'Definitivamente não é um ano bissexto.'
+"""
+def exerc_23(ano=int):
+    if (ano % 4 == 0):
+        print("Pode ser um ano bissexto.")
+    else:
+        print("Definitivamente não é um ano bissexto.")
+
+exerc_23(2013)
+    # Output => Definitivamente não é um ano bissexto.
+exerc_23(1990)
+    # Output => Definitivamente não é um ano bissexto.
+exerc_23(1994)
+    # Output => Definitivamente não é um ano bissexto.
+exerc_23(2024)
+    # Output => Pode ser um ano bissexto.
+exerc_23(2004)
+    # Output => Pode ser um ano bissexto.
+exerc_23(2010)
+    # Output => Definitivamente não é um ano bissexto.
+exerc_23(2008)
+    # Output => Pode ser um ano bissexto.
+exerc_23(2003)
+    # Output => Definitivamente não é um ano bissexto.
+
+```
 ---
-- **Exerc_24**: Sistema básico de verificação de bilhetes de loteria.
-```python```
+### **Exerc_24**:
+Sistema básico de verificação de bilhetes de loteria.
+
+
+```python
+import random
+"""
+Se a lista bilhete é igual à lista loteria, exiba 'Você ganhou!'; se não, exiba
+'Melhor sorte da próxima vez…'.
+"""
+
+def Exercicio33b(lista=set):
+    lista_loteria = random.sample(range(1, 60), 6)
+    if (sorted(lista) == sorted(lista_loteria)):
+        print('Você ganhou!')
+        return True
+    else:
+        print('Melhor Sorte da Próxima vez')
+        return False
+
+Exercicio33b([2,10,7,8,9,14])
+```
 ---
-- **Exerc_25**: Sistema básico de Login.
-```python```
+### **Exerc_25**:
+Sistema básico de Login.
+
+
+```python
+"""
+Implemente um programa que comece pedindo ao usuário para digitar uma identificação
+de login (ou seja, uma string). O programa, então, verifica se a identificação
+informada pelo usuário está na lista ['joe', 'sue', ' hani', 'sophie' ] de usuários
+válidos. Dependendo do resultado, uma mensagem apropriada deverá ser impressa. Não
+importando o resultado, sua função deverá exibir 'Fim.' antes de terminar.
+Aqui está um exemplo de um login bem-sucedido:
+  
+>>>
+Login: joe
+Você entrou!
+Fim.
+
+E aqui está um que não tem sucesso:
+
+>>>
+Login: john
+Usuário desconhecido.
+Fim.
+"""
+
+def exerc_25(user=str):
+    if (user in ['joe', 'sue', 'hani', 'sophie' ]):
+        print("Logado com Sucesso")
+    else:
+        print("Usuário desconhecido")
+
+exerc_25(input("Login:"))
+```
 ---
-- **Exerc_26**: Sistema básico de verificação taxa no IMC.
-```python```
+### **Exerc_26**:
+Sistema básico de verificação taxa no IMC.
+
+
+```python
+"""
+Implemente a função meuIMC(), que aceita como entrada a altura de uma pessoa
+(em metros) e o peso (em quilos) e calcula o Índice de Massa Corporal (IMC)
+dessa pessoa. A fórmula do IMC é:.
+Sua função deverá exibir a string 'Abaixo do peso' se o imc < 18.5,
+'Normal' se 18,5 <= imc < 25, e
+'Sobrepeso' se imc >= 25.
+  
+>>> meuIMC(86, 1.90)
+Normal
+>>> meuIMC(63, 1.90)
+Abaixo do peso
+"""
+
+def exerc_26(weight=int,height=float):
+    imc = weight/(height**2)
+    if (imc < 18.5):
+        print('Abaixo do peso')
+    elif (imc >= 18.5 and imc <= 25):
+        print('Normal')
+    else:
+        print('Sobrepeso')
+
+exerc_26(68, 1.69)
+    # Output => Normal
+```
 ---
 
 ## Semana 6 ✅
 
-- **Exerc_27**: Uso de Seleção de elementos em uma lista.
-```python```
+### **Exerc_27**:
+Uso de Seleção de elementos em uma lista.
+
+
+```python
+"""
+Implemente um programa que solicite do usuário uma lista de palavras
+(ou seja, strings) e depois exiba na tela, uma por linha, todas as strings de
+quatro letras nessa lista.
+Digite a lista de palavras: ['pare', 'desktop', 'tio', 'pote']
+pare pote
+"""
+
+def exerc_27(lista):
+    return list(filter(lambda x: len(x) == 4, lista))
+
+print(exerc_27(['pare', 'desktop', 'tio', 'pote']))
+```
 ---
-- **Exerc_28**: Exibição de sequências usando range 1.
-```python```
+### **Exerc_28**:
+Exibição de sequências usando range 1.
+
+
+```python
+"""
+Implemente um programa que comece pedindo ao usuário para digitar uma identificação
+de login (ou seja, uma string). O programa, então, verifica se a identificação
+informada pelo usuário está na lista ['joe', 'sue', ' hani', 'sophie' ] de usuários
+válidos. Dependendo do resultado, uma mensagem apropriada deverá ser impressa. Não
+importando o resultado, sua função deverá exibir 'Fim.' antes de terminar.
+Aqui está um exemplo de um login bem-sucedido:
+  
+Login: joe
+Você entrou!
+Fim.
+
+E aqui está um que não tem sucesso:
+Login: john
+Usuário desconhecido.
+Fim.
+"""
+
+def exerc_25(user=str):
+    if (user in ['joe', 'sue', 'hani', 'sophie' ]):
+        print("Logado com Sucesso")
+    else:
+        print("Usuário desconhecido")
+
+exerc_25(input("Login:"))
+```
 ---
-- **Exerc_29**: Exibição de sequências usando range 2.
-```python```
+### **Exerc_29**:
+Exibição de sequências usando range 2.
+
+
+```python
+"""
+Implemente a função meuIMC(), que aceita como entrada a altura de uma pessoa
+(em metros) e o peso (em quilos) e calcula o Índice de Massa Corporal (IMC)
+dessa pessoa. A fórmula do IMC é:.
+Sua função deverá exibir a string 'Abaixo do peso' se o imc < 18.5,
+'Normal' se 18,5 <= imc < 25, e
+'Sobrepeso' se imc >= 25.
+  
+>>> meuIMC(86, 1.90)
+Normal
+>>> meuIMC(63, 1.90)
+Abaixo do peso
+"""
+
+def exerc_26(weight=int,height=float):
+    imc = weight/(height**2)
+    if (imc < 18.5):
+        print('Abaixo do peso')
+    elif (imc >= 18.5 and imc <= 25):
+        print('Normal')
+    else:
+        print('Sobrepeso')
+
+exerc_26(68, 1.69)
+    # Output => Normal
+```
 ---
 
 ## Semana 7 ✅
 
-- **Exerc_27**: Mostrando com indices de strings.
-```python```
+Soma entre duas listas Bidimensionais.
+
+
+```python
+"""
+Escreva um laço for que exiba a seguinte sequência de números, um por linha.
+
+  
+Inteiros de 3 até 12, inclusive este.
+Inteiros de 0 até (mas não incluindo) 9, com um passo de 2 em vez do padrão 1
+(isto é, 0, 2, 4, 6, 8).
+Inteiros de 0 até (mas não incluindo) 24, com um passo de 3.
+Inteiros de 3 até (mas não incluindo) 12, com um passo de 5.
+"""
+print("Inteiros de 3 até 12, inclusive este.")
+for i in range(3,13):
+    print(i)
+    """  Output =>
+    Inteiros de 3 até 12, inclusive este.
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12
+    """
+print("Inteiros de 0 até (mas não incluindo) 9, com um passo de 2 em vez do padrão 1")
+for i in range(0,9,2):
+    print(i)
+    """ Output =>
+    Inteiros de 0 até (mas não incluindo) 9, com um passo de 2 em vez do padrão 1
+    0
+    2
+    4
+    6
+    8
+    """
+
+print("Inteiros de 0 até (mas não incluindo) 24, com um passo de 3.")
+for i in range(0,24,3):
+    print(i)
+    """ Output =>
+    Inteiros de 0 até (mas não incluindo) 24, com um passo de 3.
+    0
+    3
+    6
+    9
+    12
+    15
+    18
+    21
+    """
+print("Inteiros de 3 até (mas não incluindo) 12, com um passo de 5.")
+for i in range(3,12,5):
+    print(i)
+    """
+    Inteiros de 3 até (mas não incluindo) 12, com um passo de 5.
+    3
+    8
+    """
+```
 ---
-- **Exerc_28**: Métodos em String.
-```python```
+### **Exerc_30**:
+Soma entre duas listas Bidimensionais.
+
+
+```python
+"""
+Comece executando a atribuição:
+s = '0123456789'
+Agora, escreva expressões (usando s e o operador de indexação) que
+sejam avaliadas como:  
+'234'
+'78'
+'1234567'
+'0123'
+'789'
+"""
+
+s = '0123456789'
+
+print(s[2:5])
+    # Output => 234
+print(s[7:8])
+    # Output => 78
+print(s[1:8])
+    # Output => 1234567
+print(s[0:4])
+    # Output => 0123
+print(s[7:10])
+    # Output => 789
+
+```
 ---
-- **Exerc_29**: Soma entre duas listas Bidimensionais.
-```python```
+### **Exerc_31**:
+Soma entre duas listas Bidimensionais.
+
+
+```python
+"""
+Supondo que a variável previsão tenha recebido a string
+'It will be a sunny day today'
+escreva instruções Python correspondentes a estas atribuições:
+
+  
+A variável cont, a quantidade de ocorrências da string 'day' na string previsão.
+A variável clima, o índice em que a substring 'sunny' começa.
+A variável troca, uma cópia de previsão na qual cada ocorrência da substring
+'sunny' é substituída por 'cloudy'.
+"""
+
+prevision = 'It will be a sunny day today'
+count = prevision.count("day")
+weather = prevision.index("sunny")
+change = prevision.replace("sunny", "cloudy")
+
+print(prevision)
+    # Output => It will be a sunny day today
+print(count)
+    # Output => 2
+print(weather)
+    # Output => 13
+print(change)
+    # Output => It will be a cloudy day today
+
+```
+---
+### **Exerc_32**:
+Soma entre duas listas Bidimensionais.
+
+
+```python
+"""
+Escreva uma função exerc_32() que aceita duas listas bidimensionais do mesmo
+tamanho (ou seja, o mesmo número de linhas e colunas) como argumentos de entrada e
+incrementa cada entrada na primeira lista com o valor da entrada correspondente
+na segunda lista.
+
+            
+>>> t = [[4, 7, 2, 5], [5, 1, 9, 2], [8, 3, 6, 6]]
+>>> s = [[0, 1, 2, 0], [0, 1, 1, 1], [0, 1, 0, 0]]
+>>> exerc_32(t,s)
+>>> for linha in t:
+print(linha)
+
+[4, 8, 4, 5]
+[5, 2, 10, 3]
+[8, 4, 6, 6]
+"""
+
+def exerc_32(lista1=list, lista2=list):
+    try:
+        if (len(lista1) == len(lista2)):
+            print(f"Lista 1: {lista1}")
+            print(f"Lista 2: {lista2}")
+            for i, rows in enumerate(lista1):
+                for j, cols in enumerate(rows):
+                    lista1[i][j] += lista2[i][j]
+            print(f"Resultado: {lista1}")
+    except:
+        raise IndexError("Argumentos Inválidos")
+    
+# List 1
+obj_1 = [[16, 64, 11, 38],[54, 41, 77, 2],[84, 55, 4, 88],[11, 80, 16, 48]]
+obj_2 = [[36, 5, 43, 9],[48, 48, 96, 64],[85, 2, 16, 75],[91, 95, 22, 84]]
+
+exerc_32(obj_1, obj_2)
+"""
+Lista 1: [[16, 64, 11, 38], [54, 41, 77, 2], [84, 55, 4, 88], [11, 80, 16, 48]]
+Lista 2: [[36, 5, 43, 9], [48, 48, 96, 64], [85, 2, 16, 75], [91, 95, 22, 84]]
+Resultado: [[52, 69, 54, 47], [102, 89, 173, 66], [169, 57, 20, 163], [102, 175, 38, 132]]
+"""
+```
 ---
