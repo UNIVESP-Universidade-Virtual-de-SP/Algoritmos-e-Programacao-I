@@ -13,7 +13,7 @@
 |     _7_    	|         Vetores e matrizes         	|
 |     _8_    	|  Depuração de programas e revisão  	|
 
-[Exercícios de Apoio](/Exercícios_apoio_I)
+[Exercícios de Apoio](/Algoritmos-e-Programacao-I-II/Exercícios_apoio_I)
 
 ## Bibliografia 
 ### Semana 1 a 7
