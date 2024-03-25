@@ -1,41 +1,80 @@
-# 📝 Exercícios de apoio semanais.
+# 📝 Exercícios d.e apoio semanais.
 
-Os Seguintes exercícios são de Algoritmos Programacao de Computadores I do primeiro semestre de 2024. 
+Os Seguintes exercícios s.ão de Algoritmos Programacao de Computadores I do primeiro semestre de 2024. 
 
-- [Semana 1](#semana-1-)
-- [Semana 2](#semana-2-)
-- [Semana 3](#semana-3-)
-- [Semana 4](#semana-4-)
-- [Semana 5](#semana-5-)
-- [Semana 6](#semana-6-)
-- [Semana 7](#semana-7-)
+## Indíce
 
-# Semana 1 ✅
+- [Semana 1 ✅.](#semana-1-)
+    - [Exercício 1..](#exerc_01)
+    - [Exercício 2..](#exerc_02)
+    - [Exercício 3..](#exerc_03)
+    - [Exercício 4..](#exerc_04)
+- [Semana 2 ✅.](#semana-2-)
+    - [Exercício 05.](#exerc_05)
+    - [Exercício 06.](#exerc_06)
+    - [Exercício 07.](#exerc_07)
+    - [Exercício 08.](#exerc_08)
+- [Semana 3 ✅.](#semana-3-)
+    - [Exercício 09.](#exerc_09)
+    - [Exercício 10.](#exerc_10)
+    - [Exercício 11.](#exerc_11)
+    - [Exercício 12.](#exerc_12)
+    - [Exercício 13.](#exerc_13)
+- [Semana 4 ✅.](#semana-4-)
+    - [Exercício 14.](#exerc_14)
+    - [Exercício 15.](#exerc_15)
+    - [Exercício 16.](#exerc_16)
+    - [Exercício 17.](#exerc_17)
+    - [Exercício 18.](#exerc_18)
+- [Semana 5 ✅.](#semana-5-)
+    - [Exercício 19.](#exerc_19)
+    - [Exercício 20.](#exerc_20)
+    - [Exercício 21.](#exerc_21)
+    - [Exercício 22.](#exerc_22)
+    - [Exercício 23.](#exerc_23)
+    - [Exercício 24.](#exerc_24)
+    - [Exercício 25.](#exerc_25)
+    - [Exercício 26.](#exerc_26)
+- [Semana 6 ✅.](#semana-6-)
+    - [Exercício 27.](#exerc_27)
+    - [Exercício 28.](#exerc_28)
+    - [Exercício 29.](#exerc_29)
+- [Semana 7 ✅.](#semana-7-)
+    - [Exercício 30.](#exerc_30)
+    - [Exercício 31.](#exerc_31)
+    - [Exercício 32.](#exerc_32)
+
+## Semana 1 ✅
 
 
-- **Exerc_01**: Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
+### **Exerc_01**:
+Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
+
 
 ```python
-    """
-    Ler uma temperatura em graus Celsius e apresentá-la convertida
-    em graus Fahrenheit. A fórmula de conversão é F ← C * 9 / 5 + 32,
-    sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
-    """
+"""
+Ler uma temperatura em graus Celsius e apresentá-la convertida
+em graus Fahrenheit. A fórmula de conversão é F ← C * 9 / 5 + 32,
+sendo F a temperatura em Fahrenheit e C a temperatura em Celsius.
+"""
 
-    def exerc_01(temperaturaC):
-        " Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit."
-        print("Em Farenheight é",(temperaturaC * 9 / 5) + 32, "°F.")
-        return temperaturaC
+def exerc_01(temperaturaC):
+    " Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit."
+    print("Em Farenheight é",(temperaturaC * 9 / 5) + 32, "°F.")
+    return temperaturaC
 
-    exerc_01(0) # Saída => Em Farenheight é 32 °F.
-    exerc_01(1) # Saída => Em Farenheight é 33,8 °F.
-    exerc_01(10) # Saída => Em Farenheight é 50 °F.
-    exerc_01(100) # Saída => Em Farenheight é 212 °F.
+exerc_01(0) # Saída => Em Farenheight é 32 °F
+exerc_01(1) # Saída => Em Farenheight é 33,8 °F
+exerc_01(10) # Saída => Em Farenheight é 50 °F
+exerc_01(100) # Saída => Em Farenheight é 212 °F.
 ```
 
 
 ---
-- **Exerc_02**: Organizador de listas.
+### **Exerc_02**:
+Organizador de listas.
+
+
 ```python
 """
 Primeiro, execute a atribuição palavras =
@@ -43,24 +82,26 @@ Primeiro, execute a atribuição palavras =
 Agora, escreva duas expressões Python que são avaliadas, respectivamente, como a
 primeira e a última palavras em palavras, na ordem do dicionário.
 """
-
 def exerc_2(*args):
     "Organizador de listas."
     print(sorted(*args))
-    return sorted(*args)
+    return sorted(*args
 
 exerc_2(['taco', 'bola', 'celeiro', 'cesta', 'peteca']) # Output => ['bola', 'celeiro', 'cesta', 'peteca', 'taco']
 ```
 
 ---
-- **Exerc_03**: Calculadora de média escolar.
+### **Exerc_03**:
+Calculadora de média escolar.
+
+
 ```python
 """
 Realizar a leitura dos valores de quatro notas escolares bimestrais de um aluno
 representadas pelas variáveis N1, N2, N3 e N4. Calcular a média aritmética
-(variável MD) desse aluno e apresentar a mensagem “Aluno Aprovado com média” se a
-média obtida for maior ou igual a 5; caso contrário, apresentar a mensagem “Aluno
-Reprovado com média”. Informar também, após a apresentação das mensagens, o valor
+(variável MD) desse aluno e apresentar a mensagem 'Aluno Aprovado com média' se a
+média obtida for maior ou igual a 5; caso contrário, apresentar a mensagem 'Aluno
+Reprovado com média'. Informar também, após a apresentação das mensagens, o valor
 da média obtida pelo aluno.
 """
 def exerc_03(nota_minima, *args):
@@ -69,35 +110,40 @@ def exerc_03(nota_minima, *args):
     if (MD >= nota_minima):
         print("Aluno Aprovado com média", MD)
     else:
-        print("Aluno Reprovado com média", MD)
+        print("Aluno Reprovado com média", MD
 
-exerc_03(6, 1, 1, 1, 1) # Output => Aluno Reprovado com média 1.0
-exerc_03(6, 5, 5, 5, 5) # Output => Aluno Reprovado com média 5.0
-exerc_03(6, 10, 10, 10, 10) # Output => Aluno Reprovado com média 10.0
-exerc_03(6, 2, 7, 6, 4) # Output => Aluno Reprovado com média 4.75
+exerc_03(6, 1, 1, 1, 1) # Output => Aluno Reprovado com média .0
+exerc_03(6, 5, 5, 5, 5) # Output => Aluno Reprovado com média .0
+exerc_03(6, 10, 10, 10, 10) # Output => Aluno Reprovado com média 1.0
+exerc_03(6, 2, 7, 6, 4) # Output => Aluno Reprovado com média .75
 exerc_03(6, 6, 6, 6, 6) # Output => Aluno Aprovado com média 6.0
 ```
 ---
-- **Exerc_04**: Soma dos 100 primeiros números naturais.
+### **Exerc_04**:
+Soma dos 100 primeiros números naturais.
+
+
 ```python
 # Desenvolver os diagramas de blocos e as codificações em português estruturado usando
 # laço incondicional (para) do seguinte problema: Construir um programa que apresente a
 # soma dos cem primeiros números naturais (1 + 2 + 3 +...+ 98 + 99 + 100).
-
 def exerc_04():
     "Soma dos 100 primeiros números naturais."
     conta = 0
     for i in range(101):
         conta = conta + i
-    print("Exercício 4 é", conta)
+    print("Exercício 4 .é", conta
 
-exerc_04() # Output => Exercício 4 é 5050
+exerc_04() # Output => Exercício 4 .é 5050
 ```
 ---
 
 ## Semana 2 ✅
 
-- **Exerc_05**: Diferentes expressões matemáticas.
+### **Exerc_05**:
+Diferentes expressões matemáticas.
+
+
 ```python
 """
 Escreva expressões algébricas Python correspondentes aos seguintes comandos:  
@@ -114,10 +160,10 @@ g) O menor preço entre os seguintes preços: R$ 34,99, R$ 29,95 e R$ 31,50.
 print("A soma dos 5 primeiros inteiros positivos é",sum([1,2,3,4,5])) 
     # Output => 15
 
-# b)
+# b
 def exerc_05_b(*args):
     print('(float) A idade média deles é', sum(args) / len(args))
-    print('(int) A idade média deles é', sum(args) // len(args)) 
+    print('(int) A idade média deles é', sum(args) // len(ars)) 
 exerc_05_b(23,19,31)
     # Output => 24.333333333333332
     # Output => 24
@@ -146,7 +192,10 @@ print("O menor preço entre os preços é", min([34.99, 29.95, 31.50]))
     # Output => 29.95
 ```
 ---
-- **Exerc_06**: Função comparativa.
+### **Exerc_06**:
+Função comparativa.
+
+
 ```python
 """
 Traduza os comandos a seguir para expressões Booleanas em Python e avalie-as:
@@ -158,7 +207,6 @@ A soma de 2, 4 e 6 é maior que 12.
 31 é par. (Dica: o que o resto lhe diz quando você divide por 2?)
 O preço mais baixo dentre R$ 34,99, R$ 29,95 e R$ 31,50 é menor que R$ 30,00.*
 """
-
 def exerc_06(a, b, c):
     "Função comparativa"
     match c:
@@ -182,37 +230,40 @@ def exerc_06(a, b, c):
             return a != b
 
 
-# A soma de 2 e 2 é menor que 4. 
+# A soma de 2 e 2 é menor qu 4. 
 exerc_06(2+2, 4, "<")  
 # Output => False
 
-# O valor de 7 // 3 é igual a 1 + 1. 
+# O valor de 7 // 3 é igual a 1  1. 
 exerc_06(7//3, 1+1, "==") 
 # Output => True
 
-# A soma de 3 ao quadrado e 4 ao quadrado é igual a 25. 
+# A soma de 3 ao quadrado e 4 ao quadrado é igual  25. 
 exerc_06((3**2)+(4**2), 25, "==") 
 # Output => True
 
-# A soma de 2, 4 e 6 é maior que 12.
+# A soma de 2, 4 e 6 é maior qu 12.
 exerc_06(2+4+6, 12, ">") 
 # Output => False
 
-# 1387 é divisível por 19.
+# 1387 é divisível po 19.
 exerc_06(1387%19, 0, "==") 
 # Output => True
 
-# 31 é par.
+# 31  par.
 exerc_06(31%2, 0, "==") 
 # Output => False
 
-# O preço mais baixo dentre R$ 34,99, R$ 29,95 e R$ 31,50 é menor que R$ 30,00.
+# O preço mais baixo dentre R$ 34,99, R$ 29,95 e R$ 31,50 é menor que R$ 3,00.
 exerc_06(min([34.99, 29.95, 31.50]), 30, "<") 
 # Output => True
 
 ```
 ---
-- **Exerc_07**: Manipulação de strings.
+### **Exerc_07**:
+Manipulação de strings.
+
+
 ```python
 "Manipulação de strings."
 # Comece executando as instruções de atribuição:
@@ -238,7 +289,10 @@ print((s2*2+s3 + " ")*5)
 # Output => 'batbatcod batbatcod batbatcod batbatcod batbatcod'
 ```
 ---
-- **Exerc_08**: Localizado caracteres em uma string pelo seu índice.
+### **Exerc_08**:
+Localizado caracteres em uma string pelo seu índice.
+
+
 ```python
 "Localizado caracteres em uma string pelo seu índice."
 # Comece executando a atribuição:
@@ -260,9 +314,12 @@ print(s[9])
 ```
 ---
 
-## semana 3 ✅
+## Semana 3 ✅
 
-- **Exerc_09**: Utilização de índices em listas.
+### **Exerc_09**:
+Utilização de índices em listas.
+
+
 ```python
 "Pegando de índices em listas."
 # Primeiro, execute a atribuição
@@ -278,7 +335,10 @@ print(f"{palavras[0]}, {palavras[-1]}")
 
 ```
 ---
-- **Exerc_10**: Utilização de métodos de listas.
+### **Exerc_10**:
+Utilização de métodos de listas.
+
+
 ```python
 # Dada a lista de notas de trabalho de casa dos alunos
 
@@ -311,26 +371,163 @@ print(sum(notas) // len(notas))
 
 ```
 ---
-- **Exerc_11**: Ordem de importância de execução de expressões matemáticas.
-```python```
+### **Exerc_11**:
+Ordem de importância de execução de expressões matemáticas.
+
+
+```python
+#Em que ordem os operadores nas expressões a seguir são avaliados?
+
+# 2 + 3 == 4 or 5 >= 5
+print("Ordem: +, ==, >=, or") 
+
+# list[1] * -3 < -10 == 0
+print("Ordem: *, <, ==")
+
+# (list[1] * -3 < -10) in [0, True]
+print("Ordem: *, <, in")
+
+# 2 * 3**2
+print("Ordem: **, *")
+
+# 4 / 2 in [1, 2, 3]
+print("Ordem: /, in")
+```
 ---
-- **Exerc_12**: Retornando tipo do dado.
-```python```
+### **Exerc_12**:
+Retornando tipo do dado.
+
+
+```python
+# Qual é o tipo do objeto ao qual essas expressões são avaliadas?
+
+print(type(False + False)) 
+    # Output => int
+print(type(2 * 3**2.0)) 
+    # Output => float
+print(type(4 // 2 + 4 % 20)) 
+    # Output => int
+print(type(2 + 3 == 4 or 5 >= 5)) 
+    # Output => Boolean
+```
 ---
-- **Exerc_13**: Cálculos geométricos com visualização gráfica.
-```python```
+### **Exerc_13**:
+Cálculos geométricos com visualização gráfica.
+
+
+```python
+import math
+import turtle
+
+# Escreva expressões Python correspondentes ao seguinte:
+# O comprimento da hipotenusa em um triângulo retângulo cujos dois outros lados
+# têm comprimentos a e b
+
+a = 4
+b = 3
+hip = math.sqrt(a**2 + b**2)
+print(hip) 
+    # Output => 5.0
+
+# O valor da expressão que avalia se o comprimento da hipotenusa acima é 5
+Resultado = hip > 5
+print(Resultado) 
+    # Output => False
+
+# A área de um disco com raio a
+area = (math.pi * a**2)
+print(area) 
+    # Output => 50.26548245743669
+print(round(area,2)) 
+    # Output => 50.27
+
+# O valor da expressão Booleana que verifica se um ponto com coordenadas x e y está
+# dentro de um círculo com centro ( a, b ) e raio r
+x = 50
+y = 49
+print(f"x, y = {x, y}") 
+    # Output => x, y = (50, 49)
+a = 0
+b = 0
+print(f"a, b = {a, b}") 
+    # Output => a, b = (0, 0)
+r = 50
+
+resultado = ((a - x)**2 + (b - y)**2 > r**2) 
+print("(x,y) está fora círculo? Resposta:", resultado) 
+    # Output => (x,y) está fora círculo? Resposta: True
+
+# Visualmente
+screen = turtle.Screen()
+screen.setup(r*4, r*4)
+circle_pen = turtle.Turtle(visible=False)
+circle_pen.up()
+circle_pen.setpos(0, -r)
+circle_pen.down()
+circle_pen.circle(radius=r)
+xy_pos = turtle.Turtle(shape="circle")
+xy_pos.color("#000", "#f00")
+xy_pos.shapesize(0.2,0.2,0.2)
+xy_pos.up()
+xy_pos.setpos(x, y)
+screen.mainloop()
+```
 ---
 
 ## Semana 4 ✅
 
-- **Exerc_14**: Média entre dois números.
-```python```
+### **Exerc_14**:
+Média entre dois números.
+
+
+```python
+# Defina, a função média(), que aceita dois
+# números como entrada e retorna a média dos números. Um exemplo de uso é:
+# >>> average(2, 3.5)
+
+def average(a=int, b=int):
+    "Função que retorna média entre dois valores a e b"
+    try:
+        return (a + b) / 2
+    except:
+        raise ValueError("Valor não inteiro")
+    finally:
+        print((a + b) / 2)
+
+average(10,10) 
+    # Output => 10.0
+average(10, 4) 
+    # Output => 7.0
+average(4, 5) 
+    # Output => 4.5
+average(8, 10) 
+    # Output => 9.0
+```
+
 ---
-- **Exerc_15**: Perímetro de um determinado número.
-```python```
----
-- **Exerc_16**: Filtra Números negativos em uma lista.
-```python```
+### **Exerc_15**:
+Perímetro de um determinado número.
+
+
+```python
+import math
+# Implemente a função perímetro(), que aceita, como entrada, o raio de um círculo
+# (um número não negativo) e retorna o perímetro do círculo. Você deverá escrever sua
+# implementação em um módulo chamado perímetro.py. Um exemplo de uso é:
+
+def perimetro(raio=int):
+    if raio >= 0:
+        return 2 * math.pi * raio
+    else:
+        raise ValueError("Valor menor que zero, por favor insira um valor diferente")
+
+print(perimetro(0)) 
+    # Output => 0.0
+print(perimetro(1)) 
+    # Output => 6.283185307179586
+print(perimetro(2)) 
+    # Output => 12.566370614359172
+```
 ---
 - **Exerc_17**: Usa função Help em exercícios da semana 4.
 ```python```
