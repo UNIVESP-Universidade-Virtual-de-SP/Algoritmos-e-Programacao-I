@@ -1,53 +1,53 @@
-# 📝 Exercícios d.e apoio semanais.
+# 📝 Exercícios de apoio semanais.
 
 Os Seguintes exercícios s.ão de Algoritmos Programacao de Computadores I do primeiro semestre de 2024. 
 
 ## Indíce
 
 - [Semana 1 ✅.](#semana-1-)
-    - [Exercício 1.](#exerc_01)
-    - [Exercício 2.](#exerc_02)
-    - [Exercício 3.](#exerc_03)
-    - [Exercício 4.](#exerc_04)
+    - [Exercício 1.](#exercício-01-)
+    - [Exercício 2.](#exercício-02-)
+    - [Exercício 3.](#exercício-03-)
+    - [Exercício 4.](#exercício-04-)
 - [Semana 2 ✅.](#semana-2-)
-    - [Exercício 05.](#exerc_05)
-    - [Exercício 06.](#exerc_06)
-    - [Exercício 07.](#exerc_07)
-    - [Exercício 08.](#exerc_08)
+    - [Exercício 05.](#exercício-05-)
+    - [Exercício 06.](#exercício-06-)
+    - [Exercício 07.](#exercício-07-)
+    - [Exercício 08.](#exercício-08-)
 - [Semana 3 ✅.](#semana-3-)
-    - [Exercício 09.](#exerc_09)
-    - [Exercício 10.](#exerc_10)
-    - [Exercício 11.](#exerc_11)
-    - [Exercício 12.](#exerc_12)
-    - [Exercício 13.](#exerc_13)
+    - [Exercício 09.](#exercício-09-)
+    - [Exercício 10.](#exercício-10-)
+    - [Exercício 11.](#exercício-11-)
+    - [Exercício 12.](#exercício-12-)
+    - [Exercício 13.](#exercício-13-)
 - [Semana 4 ✅.](#semana-4-)
-    - [Exercício 14.](#exerc_14)
-    - [Exercício 15.](#exerc_15)
-    - [Exercício 16.](#exerc_16)
-    - [Exercício 17.](#exerc_17)
-    - [Exercício 18.](#exerc_18)
+    - [Exercício 14.](#exercício-14-)
+    - [Exercício 15.](#exercício-15-)
+    - [Exercício 16.](#exercício-16-)
+    - [Exercício 17.](#exercício-17-)
+    - [Exercício 18.](#exercício-18-)
 - [Semana 5 ✅.](#semana-5-)
-    - [Exercício 19.](#exerc_19)
-    - [Exercício 20.](#exerc_20)
-    - [Exercício 21.](#exerc_21)
-    - [Exercício 22.](#exerc_22)
-    - [Exercício 23.](#exerc_23)
-    - [Exercício 24.](#exerc_24)
-    - [Exercício 25.](#exerc_25)
-    - [Exercício 26.](#exerc_26)
+    - [Exercício 19.](#exercício-19-)
+    - [Exercício 20.](#exercício-20-)
+    - [Exercício 21.](#exercício-21-)
+    - [Exercício 22.](#exercício-22-)
+    - [Exercício 23.](#exercício-23-)
+    - [Exercício 24.](#exercício-24-)
+    - [Exercício 25.](#exercício-25-)
+    - [Exercício 26.](#exercício-26-)
 - [Semana 6 ✅.](#semana-6-)
-    - [Exercício 27.](#exerc_27)
-    - [Exercício 28.](#exerc_28)
-    - [Exercício 29.](#exerc_29)
+    - [Exercício 27.](#exercício-27-)
+    - [Exercício 28.](#exercício-28-)
+    - [Exercício 29.](#exercício-29-)
 - [Semana 7 ✅.](#semana-7-)
-    - [Exercício 30.](#exerc_30)
-    - [Exercício 31.](#exerc_31)
-    - [Exercício 32.](#exerc_32)
+    - [Exercício 30.](#exercício-30-)
+    - [Exercício 31.](#exercício-31-)
+    - [Exercício 32.](#exercício-32-)
 
 ## Semana 1 ✅
 
 
-### **Exerc_01**:
+### Exercício 01 ⌨️
 Ler uma temperatura em graus Celsius e apresentá-la convertida em graus Fahrenheit.
 
 
@@ -71,7 +71,7 @@ exerc_01(100) # Saída => Em Farenheight é 212 °F.
 
 
 ---
-### **Exerc_02**:
+### Exercício 02 ⌨️
 Organizador de listas.
 
 
@@ -91,7 +91,7 @@ exerc_2(['taco', 'bola', 'celeiro', 'cesta', 'peteca']) # Output => ['bola', 'ce
 ```
 
 ---
-### **Exerc_03**:
+### Exercício 03 ⌨️
 Calculadora de média escolar.
 
 
@@ -119,7 +119,7 @@ exerc_03(6, 2, 7, 6, 4) # Output => Aluno Reprovado com média .75
 exerc_03(6, 6, 6, 6, 6) # Output => Aluno Aprovado com média 6.0
 ```
 ---
-### **Exerc_04**:
+### Exercício 04 ⌨️
 Soma dos 100 primeiros números naturais.
 
 
@@ -140,7 +140,7 @@ exerc_04() # Output => Exercício 4 .é 5050
 
 ## Semana 2 ✅
 
-### **Exerc_05**:
+### Exercício 05 ⌨️
 Diferentes expressões matemáticas.
 
 
@@ -192,7 +192,7 @@ print("O menor preço entre os preços é", min([34.99, 29.95, 31.50]))
     # Output => 29.95
 ```
 ---
-### **Exerc_06**:
+### Exercício 06 ⌨️
 Função comparativa.
 
 
@@ -260,7 +260,7 @@ exerc_06(min([34.99, 29.95, 31.50]), 30, "<")
 
 ```
 ---
-### **Exerc_07**:
+### Exercício 07 ⌨️
 Manipulação de strings.
 
 
@@ -289,7 +289,7 @@ print((s2*2+s3 + " ")*5)
 # Output => 'batbatcod batbatcod batbatcod batbatcod batbatcod'
 ```
 ---
-### **Exerc_08**:
+### Exercício 08 ⌨️
 Localizado caracteres em uma string pelo seu índice.
 
 
@@ -316,7 +316,7 @@ print(s[9])
 
 ## Semana 3 ✅
 
-### **Exerc_09**:
+### Exercício 09 ⌨️
 Utilização de índices em listas.
 
 
@@ -335,7 +335,7 @@ print(f"{palavras[0]}, {palavras[-1]}")
 
 ```
 ---
-### **Exerc_10**:
+### Exercício 10 ⌨️
 Utilização de métodos de listas.
 
 
@@ -371,7 +371,7 @@ print(sum(notas) // len(notas))
 
 ```
 ---
-### **Exerc_11**:
+### Exercício 11 ⌨️
 Ordem de importância de execução de expressões matemáticas.
 
 
@@ -394,7 +394,7 @@ print("Ordem: **, *")
 print("Ordem: /, in")
 ```
 ---
-### **Exerc_12**:
+### Exercício 12 ⌨️
 Retornando tipo do dado.
 
 
@@ -411,7 +411,7 @@ print(type(2 + 3 == 4 or 5 >= 5))
     # Output => Boolean
 ```
 ---
-### **Exerc_13**:
+### Exercício 13 ⌨️
 Cálculos geométricos com visualização gráfica.
 
 
@@ -476,7 +476,7 @@ screen.mainloop()
 
 ## Semana 4 ✅
 
-### **Exerc_14**:
+### Exercício 14 ⌨️
 Média entre dois números.
 
 
@@ -505,7 +505,7 @@ average(8, 10)
 ```
 
 ---
-### **Exerc_15**:
+### Exercício 15 ⌨️
 Perímetro de um determinado número.
 
 
@@ -529,7 +529,7 @@ print(perimetro(2))
     # Output => 12.566370614359172
 ```
 ---
-### **Exerc_16**:
+### Exercício 16 ⌨️
 Filtra Números negativos em uma lista.
 
 
@@ -548,7 +548,7 @@ negativos([4, 0, -1, -3, 6, -9])
     # Output => [-1, -3, -9]
 ```
 ---
-### **Exerc_17**:
+### Exercício 17 ⌨️
 Usa função Help em exercícios d.a semana 4.
 
 
@@ -571,7 +571,7 @@ help(exerc_14.average)
 help(exerc_16.negativos)
 ```
 ---
-### **Exerc_18**:
+### Exercício 18 ⌨️
 Manipulação de items em uma lista.
 
 
@@ -616,7 +616,7 @@ print(exerc_18([True]))
 
 ## Semana 5 ✅
 
-### **Exerc_19**:
+### Exercício 19 ⌨️
 Uso de condicionais para verificação se há ou não direito a pensão.
 
 
@@ -638,7 +638,7 @@ exerc_19(63)
     # Output => Você pode obter benefícios de pensão
 ```
 ---
-### **Exerc_20**:
+### Exercício 20 ⌨️
 Verificação de Items em uma lista com if.
 
 
@@ -658,7 +658,7 @@ exerc_20("Williams")
     # Output => Um dos 5 maiores jogadores de beisebol de todos os tempos!
 ```
 ---
-### **Exerc_21**:
+### Exercício 21 ⌨️
 Verificação usando operadores lógicos.
 
 
@@ -675,7 +675,7 @@ Exercicio32c(10,1)
 Exercicio32c(11,0)
 ```
 ---
-### **Exerc_22**:
+### Exercício 22 ⌨️
 Verificação de Items em um dict com if.
 
 
@@ -691,7 +691,7 @@ Exercicio32d(norte=True,sul=True,leste=True,oeste=True)
 
 ```
 ---
-### **Exerc_23**:
+### Exercício 23 ⌨️
 Verificação de ano Bissexto.
 
 
@@ -727,7 +727,7 @@ exerc_23(2003)
 
 ```
 ---
-### **Exerc_24**:
+### Exercício 24 ⌨️
 Sistema básico de verificação de bilhetes de loteria.
 
 
@@ -750,7 +750,7 @@ def Exercicio33b(lista=set):
 Exercicio33b([2,10,7,8,9,14])
 ```
 ---
-### **Exerc_25**:
+### Exercício 25 ⌨️
 Sistema básico de Login.
 
 
@@ -785,7 +785,7 @@ def exerc_25(user=str):
 exerc_25(input("Login:"))
 ```
 ---
-### **Exerc_26**:
+### Exercício 26 ⌨️
 Sistema básico de verificação taxa no IMC.
 
 
@@ -820,7 +820,7 @@ exerc_26(68, 1.69)
 
 ## Semana 6 ✅
 
-### **Exerc_27**:
+### Exercício 27 ⌨️
 Uso de Seleção de elementos em uma lista.
 
 
@@ -839,7 +839,7 @@ def exerc_27(lista):
 print(exerc_27(['pare', 'desktop', 'tio', 'pote']))
 ```
 ---
-### **Exerc_28**:
+### Exercício 28 ⌨️
 Exibição de sequências usando range 1.
 
 
@@ -871,7 +871,7 @@ def exerc_25(user=str):
 exerc_25(input("Login:"))
 ```
 ---
-### **Exerc_29**:
+### Exercício 29 ⌨️
 Exibição de sequências usando range 2.
 
 
@@ -972,7 +972,7 @@ for i in range(3,12,5):
     """
 ```
 ---
-### **Exerc_30**:
+### Exercício 30 ⌨️
 Soma entre duas listas Bidimensionais.
 
 
@@ -1004,7 +1004,7 @@ print(s[7:10])
 
 ```
 ---
-### **Exerc_31**:
+### Exercício 31 ⌨️
 Soma entre duas listas Bidimensionais.
 
 
@@ -1037,7 +1037,7 @@ print(change)
 
 ```
 ---
-### **Exerc_32**:
+### Exercício 32 ⌨️
 Soma entre duas listas Bidimensionais.
 
 
