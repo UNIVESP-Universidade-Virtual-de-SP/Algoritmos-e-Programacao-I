@@ -51,11 +51,13 @@ Nesta semana, eu já:
 - [ ] Entendi os conceitos de listas, tuplas e tipos de dados;
 - [ ] Compreendi o conceito de tipos de dados em Python e como usá-los;
 - [ ] Conheci a biblioteca padrão Python.
+      
 ### Semana 4 | Criação de programas
 Nesta semana, eu já:
 - [ ] compreendi como fornecer dados de entrada para um programa;
 - [ ] entendi como gerar uma saída do programa para o usuário;
 - [ ] aprendi a definir funções próprias e documentar programas.
+      
 ### Semana 5 | Estruturas de condição
 Nesta semana, eu já:
 - [ ] Entendi o que são estruturas de condição e seu funcionamento;
@@ -63,6 +65,7 @@ Nesta semana, eu já:
 - [ ] Com expressões lógicas;
 - [ ] Soube diferenciar estruturas de condição de uma, duas ou
 mais vias.
+
 ### Semana 6 | Estruturas de repetição
 Nesta semana, eu já:
 - [ ] Entendi o que são estruturas de repetição e seu funcionamento;
@@ -70,20 +73,19 @@ Nesta semana, eu já:
 - [ ] Expressões lógicas e estruturas de condição;
 - [ ] Vi a diferença entre estruturas de repetição disponíveis na
 linguagem Python.
+
 ### Semana 7 | Vetores e Matrizes
 Nesta semana, eu já:
 - [ ] Entendi o que são listas multidimensionais e seu funcionamento;
 - [ ] Compreendi como listas em várias dimensões podem ser usadas em problemas específicos;
 - [ ] Aprendi como listas multidimensionais podem ser
+      
 ### Semana 8 | Depuração de programas e revisão.
 Nesta semana, eu já:
 - [ ] entendi como a depuração de código é realizada na linguagem Python;
 - [ ] revi e compreendi o conteúdo apresentado nas semanas anteriores;
 - [ ] identifiquei os conteúdos centrais e que merecem mais atenção no
 momento da revisão.
-
-
-
 
 | **Semana** 	|             **Matéria**            	|
 |:----------:	|:----------------------------------:	|
