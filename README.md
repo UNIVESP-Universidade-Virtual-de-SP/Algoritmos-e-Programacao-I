@@ -3,17 +3,17 @@
 ## Indíces
 
 - [Ementa](#ementa-) 
-- [Objetivos da discilina](#objetivos-da-disciplina) 
-- [Conteúdo programático](#conteúdo-programático) 
-- [Exercícios apoio](#exercícios-de-apoio) 
-- [Grade Algoritmos e Programação de Computadores I](#grade-algoritmos-e-programação-de-computadores-i) 
-- [Bibliografia](#bibliografia) 
+- [Objetivos da discilina](#objetivos-da-disciplina-) 
+- [Conteúdo programático](#conteúdo-programático-) 
+- [Exercícios apoio](#exercícios-de-apoio-) 
+- [Grade Algoritmos e Programação de Computadores I](#grade-algoritmos-e-programação-de-computadores-i-) 
+- [Bibliografia](#bibliografia-) 
 
 
 ## Ementa 📋
 Algoritmos: caracterização, notação, estruturas básicas. Conceitos de linguagens algorítmicas: expressões; comandos sequenciais, seletivos e repetitivos; entrada/saída; variáveis; constantes; listas, vetores (listas em Python), matrizes, strings; funções; escopo de variáveis; desenvolvimento, depuração, noções de testes automatizados e documentação de programas utilizando linguagem Python.
 
-## Objetivos da disciplina
+## Objetivos da disciplina 🎯
 Compreender conceitos básicos de programação e descrever algoritmos para resolver problemas utilizando a linguagem de programação Python, incluindo depuração e testes automatizados básicos.
 
 ## Conteúdo programático 📚
