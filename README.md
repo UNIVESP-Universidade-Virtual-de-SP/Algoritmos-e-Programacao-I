@@ -2,12 +2,12 @@
 
 ## Indíces
 
-- [Ementa](#ementa-) 
-- [Objetivos da discilina](#objetivos-da-disciplina-) 
-- [Conteúdo programático](#conteúdo-programático-) 
-- [Exercícios apoio](#exercícios-de-apoio-) 
-- [Grade Algoritmos e Programação de Computadores I](#grade-algoritmos-e-programação-de-computadores-i-) 
-- [Bibliografia](#bibliografia-) 
+- [Ementa 📋](#ementa-) 
+- [Objetivos da discilina 🎯](#objetivos-da-disciplina-) 
+- [Conteúdo programático 📚](#conteúdo-programático-) 
+- [Exercícios apoio 💪](#exercícios-de-apoio-) 
+- [Grade Algoritmos e Programação de Computadores I 📅](#grade-algoritmos-e-programação-de-computadores-i-) 
+- [Bibliografia 📖](#bibliografia-) 
 
 
 ## Ementa 📋
@@ -100,12 +100,12 @@ momento da revisão.
 
 
 ## Bibliografia 📖
-### Bibliografia Base
+### Bibliografia Base 📖
 _MILLER, B.; RANUM, D. Como pensar como um cientista da computação. Panda, 2019. Disponível em: https://panda.ime.usp.br/pensepy/static/pensepy/index.html. Acesso em: 16 jul. 2020._
 
 _PERKOVIC, L. Introdução à computação usando Python: um foco no desenvolvimento de aplicações. São Paulo: LTC, 2016._
 
-### Bibliografia Complementar
+### Bibliografia Complementar 📖
 _DOWNEY, A. Pense Python: pense como um cientista da computação. São Paulo: Novatec, 2016._
 
 _FREEMAN, E. Use a Cabeça! Aprenda programar. Rio de Janeiro: Alta Books, 2019._
