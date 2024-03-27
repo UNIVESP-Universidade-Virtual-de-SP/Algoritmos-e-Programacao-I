@@ -1,11 +1,11 @@
-# Algoritmos e Programação I e II 👩‍💻
+# Algoritmos e Programação I 👩‍💻
 
 ## Indíces 📌
 
 - [Ementa 📋](#ementa-) 
 - [Objetivos da discilina 🎯](#objetivos-da-disciplina-) 
 - [Conteúdo programático 📚](#conteúdo-programático-) 
-- [Exercícios apoio 💪](#exercícios-de-apoio-algoritmos-e-programação-de-computadores-i-💪) 
+- [Exercícios apoio 💪](#exercícios-de-apoio-) 
 - [Grade Algoritmos e Programação de Computadores I 📅](#grade-algoritmos-e-programação-de-computadores-i-) 
 - [Bibliografia 📖](#bibliografia-) 
 
@@ -26,7 +26,7 @@ Estruturas de repetição: for, while, continue, break e pass
 Vetores e matrizes: listas multidimensionais em Python
 Noções de depuração de programas
 
-## Exercícios de Apoio Algoritmos e Programação de Computadores I 💪
+## Exercícios de Apoio 💪
 [Exercícios de Apoio](/Algoritmos-e-Programacao-I-II/Exercícios_apoio_I)
 
 ## Grade Algoritmos e Programação de Computadores I  📅
