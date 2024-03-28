@@ -2,4 +2,6 @@ title: Algoritmos e Programação I 👩‍💻.
 description: Materiais da disciplina de Algoritmos e Programação de Computadores I.
 show_downloads: false
 google_analytics:
-theme: jekyll-theme-architect
+remote_theme: Gabriel-Sousa-Amorim/Serenity-Theme
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
