@@ -1,4 +1,4 @@
-[Voltar ao ínicio ⬅️](/Algoritmos-e-Programacao-I-II/)
+[Voltar ao ínicio ⬅️](/Algoritmos-e-Programacao-I/)
 
 # Exercícios de apoio semanais 📝.
 
