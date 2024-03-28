@@ -1,5 +1,6 @@
 [Voltar ao ínicio ⬅️](/Algoritmos-e-Programacao-I/)
 
+
 # Exercícios de apoio semanais 📝.
 
 Os seguintes exercícios pertencem à disciplina de Algoritmos e Programação de Computadores I, ministrada no primeiro semestre de 2024.
