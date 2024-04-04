@@ -5,7 +5,7 @@
 - [Ementa 📋](#ementa-) 
 - [Objetivos da discilina 🎯](#objetivos-da-disciplina-) 
 - [Conteúdo programático 📚](#conteúdo-programático-) 
-- [Exercícios apoio 💪](#exercícios-de-apoio-) 
+- [Conteúdo 💪](#conteudo-) 
 - [Grade Algoritmos e Programação de Computadores I 📅](#grade-algoritmos-e-programação-de-computadores-i-) 
 - [Bibliografia 📖](#bibliografia-) 
 
@@ -26,7 +26,7 @@ Estruturas de repetição: for, while, continue, break e pass
 Vetores e matrizes: listas multidimensionais em Python
 Noções de depuração de programas
 
-## Exercícios de Apoio 💪
+## Conteúdo 💪
 [Exercícios de Apoio](/Algoritmos-e-Programacao-I/Conteúdo)
 
 ## Grade Algoritmos e Programação de Computadores I 📅
