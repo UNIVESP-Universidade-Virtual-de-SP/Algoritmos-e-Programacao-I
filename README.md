@@ -27,7 +27,7 @@ Vetores e matrizes: listas multidimensionais em Python
 Noções de depuração de programas
 
 ## Conteúdo 💪
-[Ir para o Conteúdo](../Conteúdo/)
+[Ir para o Conteúdo](Algoritmos-e-Programacao-I/Conteúdo/)
 
 ## Grade Algoritmos e Programação de Computadores I 📅
 
